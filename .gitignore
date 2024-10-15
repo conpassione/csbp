@@ -1,0 +1,9 @@
+.ddev/
+.DS_Store
+.idea/
+/node_modules/
+/packages/
+/public/
+/var/
+/vendor/
+composer.lock

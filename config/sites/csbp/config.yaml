@@ -1,0 +1,83 @@
+base: 'https://csbp.ddev.site'
+baseVariants:
+  -
+    base: 'https://csbp.ddev.site'
+    condition: 'applicationContext == "Development"'
+dependencies:
+  - conpassione/cpdevsite
+errorHandling:
+  -
+    errorCode: 404
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=4'
+  -
+    errorCode: 500
+    errorHandler: Page
+    errorContentSource: 't3://page?uid=5'
+languages:
+  -
+    languageId: 0
+    title: Deutsch
+    navigationTitle: Deutsch
+    base: /
+    locale: de_CH.UTF-8
+    iso-639-1: de
+    hreflang: de_CH
+    direction: ltr
+    flag: ch
+    enabled: true
+    websiteTitle: 'conPassione Entwicklungsinstanz'
+  -
+    languageId: 1
+    title: Français
+    navigationTitle: Franc
+    base: /fr/
+    locale: fr_FR.UTF-8
+    iso-639-1: fr
+    hreflang: fr_FR
+    direction: ltr
+    flag: fr
+    fallbackType: fallback
+    fallbacks: '0'
+    enabled: true
+    websiteTitle: 'conPassione | site de develeopement'
+  -
+    languageId: 2
+    title: Italiano
+    navigationTitle: Italiano
+    base: /it/
+    locale: it_IT.UTF-8
+    iso-639-1: it
+    hreflang: it_IT
+    direction: ltr
+    flag: it
+    fallbackType: fallback
+    fallbacks: '1,0'
+    enabled: true
+    websiteTitle: 'conPassione | sito di sviluppo'
+  -
+    languageId: 3
+    title: English
+    navigationTitle: English
+    base: /en/
+    locale: en_US.UTF-8
+    iso-639-1: en
+    hreflang: en_US
+    direction: ltr
+    flag: gb
+    fallbackType: fallback
+    fallbacks: '0'
+    enabled: true
+    websiteTitle: 'conPassion DevSite'
+rootPageId: 1
+routeEnhancers:
+  PageTypeSuffix:
+    type: PageType
+    map:
+      sitemap.xml: 1533906435
+routes:
+  -
+    route: robots.txt
+    type: staticText
+    content: "User-agent: *\r\nDisallow: /typo3/\r\nDisallow: /typo3conf/\r\nSitemap: https://csbp.ddev.site/sitemap.xml\r\n"
+websiteTitle: CpDevSite
