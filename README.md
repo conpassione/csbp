@@ -1,5 +1,6 @@
-# Extension Documentation
+# Site Documentation
 
-Die Extension wird von der [conPassione gmbh](https://www.conpassione.ch) zur Verfügung gestellt.
+Die Site wird von der [conPassione gmbh](https://www.conpassione.ch) zur
+Verfügung gestellt.
 
-Das ist jetzt ein zusätzlicher Test für die Integration mit github.
+Das ist die Website des Club Suisse du Berger des Pyrénées.
