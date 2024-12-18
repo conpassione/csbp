@@ -1,10 +1,14 @@
-base: 'https://csbp.ddev.site'
+base: 'https://www.csbp.ch'
 baseVariants:
   -
     base: 'https://csbp.ddev.site'
     condition: 'applicationContext == "Development"'
 dependencies:
   - conpassione/cpdevsite
+  - typo3/fluid-styled-content
+  - typo3/redirects
+  - typo3/seo-sitemap
+  - conpassione/cpkm
 errorHandling:
   -
     errorCode: 404
