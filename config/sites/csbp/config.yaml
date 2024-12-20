@@ -4,9 +4,9 @@ baseVariants:
     base: 'https://csbp.ddev.site'
     condition: 'applicationContext == "Development"'
 dependencies:
-  - conpassione/cpdevsite
   - typo3/redirects
   - typo3/seo-sitemap
+  - conpassione/cpdevsite
   - conpassione/cpkm
 errorHandling:
   -
@@ -56,7 +56,7 @@ languages:
     flag: it
     fallbackType: fallback
     fallbacks: '1,0'
-    enabled: true
+    enabled: false
     websiteTitle: 'conPassione | sito di sviluppo'
   -
     languageId: 3
@@ -70,7 +70,7 @@ languages:
     flag: gb
     fallbackType: fallback
     fallbacks: '0'
-    enabled: true
+    enabled: false
     websiteTitle: 'conPassion DevSite'
 rootPageId: 1
 routeEnhancers:
