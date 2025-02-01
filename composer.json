@@ -21,6 +21,7 @@
 	"require": {
 		"conpassione/cpdevsite": "dev-main#1.0.2",
 		"conpassione/cpkm": "dev-main#1.0.2",
+		"lavitto/typo3-gridgallery": "^1.2",
 		"typo3/cms-core": "^13"
 	},
 	"require-dev": {
