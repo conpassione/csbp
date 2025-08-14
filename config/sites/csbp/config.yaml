@@ -8,6 +8,7 @@ dependencies:
   - typo3/seo-sitemap
   - conpassione/cpdevsite
   - conpassione/cpkm
+  - conpassione/csbp
 errorHandling:
   -
     errorCode: 404
@@ -72,6 +73,12 @@ languages:
     fallbacks: '0'
     enabled: false
     websiteTitle: 'conPassion DevSite'
+matomoWidgetsActiveWidgets: ''
+matomoWidgetsIdSite: ''
+matomoWidgetsPagesNotFoundTemplate: '404/URL = {path}/From = {referrer}'
+matomoWidgetsTitle: ''
+matomoWidgetsTokenAuth: ''
+matomoWidgetsUrl: ''
 rootPageId: 1
 routeEnhancers:
   PageTypeSuffix:

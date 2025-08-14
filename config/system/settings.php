@@ -115,7 +115,7 @@ return [
         'features' => [
             'frontend.cache.autoTagging' => true,
         ],
-        'sitename' => 'CPdev-csbp',
+        'sitename' => 'CSBP',
         'systemMaintainers' => [
             1,
         ],

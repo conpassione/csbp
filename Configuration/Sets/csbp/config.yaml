@@ -1,0 +1,4 @@
+name: conpassione/csbp
+label: CSBP Website
+dependencies:
+  - conpassione/cpkm
